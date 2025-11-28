@@ -27,4 +27,7 @@ public class Position {
 
     @OneToMany(mappedBy = "position")
     private List<Application> applications= new ArrayList<>() ;
+
+    private String description;
+
 }
